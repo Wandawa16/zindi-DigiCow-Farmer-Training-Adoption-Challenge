@@ -1,5 +1,5 @@
- DigiCow Adoption Prediction Challenge
-Project Overview
+## DigiCow Adoption Prediction Challenge
+# Project Overview
 
 This project aims to predict whether a farmer will adopt a DigiCow-supported agricultural practice within:
 
@@ -15,7 +15,7 @@ Access to agricultural training is only the first step toward improved farm prod
 
 This solution builds machine learning models that output probabilities of adoption, optimized using Log Loss and ROC-AUC.
 
-Objective
+## Objective
 
 For each farmer, predict the probability of adoption within:
 
@@ -27,7 +27,7 @@ TX_120 – Adoption within 120 days
 
 The model must use only information available at the time of training.
 
- Evaluation Metrics
+ ## Evaluation Metrics
 
 The challenge uses a weighted multi-metric evaluation:
 
@@ -35,7 +35,7 @@ Log Loss (75%) – Rewards well-calibrated probability estimates
 
 ROC-AUC (25%) – Measures ranking performance
 
-Final Score:
+ ## Final Score:
 
 Final Score = 0.75 × LogLoss + 0.25 × ROC-AUC
 
